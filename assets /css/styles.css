@@ -1,0 +1,92 @@
+
+body {
+   width: 100%;
+   background-color: black;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: black;
+    color:white;
+    width: 100%;
+    font-size:64px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.main-img img{
+width: 100%;
+display: inline-block;
+}
+
+.main-content {
+color: whitesmoke;
+padding: 0px 0;
+
+}
+
+.centrado {
+    margin: auto;
+    width: 75%;
+}
+
+.texto, .foto-iguana {
+    vertical-align: middle;
+    display: inline-block;
+    
+}
+
+.texto {
+    width: 50%;
+    margin-right: 80px;
+    margin-bottom: 400px;
+}
+
+.foto-iguana {
+   width: 35%;
+   margin-top: 100px;
+   
+
+}
+
+.features {
+    text-align: center;
+    margin: 4em 0;
+    /*border: solid 1px #333;*/
+    padding: 1em;
+    color:gainsboro;
+    background-color: #1E1A13;
+}
+
+.features i {
+display: block;
+padding: 0.5em;
+}
+
+.feature {
+    width: 30%;
+    padding: 1%;
+    display: inline-block;
+}
+
+.gallery {
+    padding: 50px 100px;
+}
+
+.photo {
+    display: inline-block;
+    width: 30%;
+   /* border: solid 1px #ccc;*/
+    margin: 0.75%;
+    padding: 0.75%;
+}
+
+.footer{
+    background-color:#1E1A13;
+    color: gainsboro;
+    text-align: center;
+    line-height: 60px;
+}  
